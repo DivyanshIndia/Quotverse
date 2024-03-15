@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Home from "../assets/home.svg";
-import Like from "../assets/like.svg";
+import Home from "../assets/Home.svg";
+import Like from "../assets/Like.svg";
 import Image from "next/image";
-import Hamburger from "../assets/hamburger.svg";
+import Hamburger from "../assets/Hamburger.svg";
 import PlaceHolder from "../assets/placeholderProfile.png";
 import Link from "next/link";
 import Profile from "@/components/Profile";

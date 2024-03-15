@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import PlaceHolder from "../assets/placeholderProfile.png";
-import comment from "../assets/comment.svg";
-import share from "../assets/send.svg";
+import comment from "../assets/Comment.svg";
+import share from "../assets/Send.svg";
 import { useDispatch } from "react-redux";
 import { addLiked, removeLiked } from "../store/LikedSlice";
 import Link from "next/link";
