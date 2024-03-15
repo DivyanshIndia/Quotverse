@@ -6,10 +6,11 @@ import { useParams } from "next/navigation";
 import Post from "@/components/Post";
 import { useRouter } from "next/navigation";
 
-const page = () => {
+const Page = () => {
   const [data, setData] = useState(null);
   const { name } = useParams();
   const router = useRouter();
+
   useEffect(() => {
     const fetchQuotesByTag = async () => {
       const res = await fetch(
@@ -45,10 +46,11 @@ const page = () => {
               tags={quote.tags}
             />
           </div>
-        ))}{" "}
+        ))}
       </div>
     </div>
   );
 };
+
 
 export default page;
